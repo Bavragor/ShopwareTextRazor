@@ -1,0 +1,14 @@
+{
+    "name": "bavragor/shopware-text-razor",
+    "description": "Natural Language Processing for Shopware (eCommerce)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Mauel",
+            "email": "kevin.mauel2@gmail.com"
+        }
+    ],
+    "require": {
+    	"textrazor/textrazor-php": "dev-master"
+    }
+}
