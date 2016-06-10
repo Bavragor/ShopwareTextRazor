@@ -42,6 +42,8 @@ class Shopware_Plugins_Frontend_ShopwareTextRazor_Bootstrap extends Shopware_Com
      */
     public function afterInit()
     {
+        require __DIR__ . DIRECTORY_SEPARATOR . 'vendor/autoload.php';
+
         $this->get('loader')->registerNamespace('
             Shopware\ShopwareTextRazor', __DIR__ . DIRECTORY_SEPARATOR . 'Component/'
         );
